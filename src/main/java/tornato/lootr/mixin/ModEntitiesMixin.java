@@ -5,6 +5,7 @@ import net.minecraft.world.entity.EntityType;
 //? if >=26.2
 //import net.minecraft.world.entity.EntityTypes;
 import noobanidus.mods.lootr.common.entity.LootrChestMinecartEntity;
+import noobanidus.mods.lootr.common.entity.LootrItemFrame;
 import noobanidus.mods.lootr.fabric.init.ModEntities;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
