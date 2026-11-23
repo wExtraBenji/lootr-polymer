@@ -17,7 +17,7 @@ public class ModEntitiesMixin {
         //~if >=26.2 'EntityType.' -> 'EntityTypes.' {
         //noinspection unchecked
         PolymerEntityUtils.registerOverlay((EntityType<LootrChestMinecartEntity>) entry, _ -> _ -> EntityType.CHEST_MINECART);
-        PolymerEntityUtils.registerOverlay((EntityType<LootrItemFrameEntity>) entry, _ -> _ -> EntityType.ITEM_FRAME);
+        PolymerEntityUtils.registerOverlay((EntityType<LootrItemFrame>) entry, _ -> _ -> EntityType.ITEM_FRAME);
         //~}
         return entry;
     }
